@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Data
 //Generates getters for all fields, a useful toString method, and hashCode and equals implementations that check all non-transient fields
-public class patientDto {
+public class PatientDto {
 
     private Long patient_id;
     private String p_name;

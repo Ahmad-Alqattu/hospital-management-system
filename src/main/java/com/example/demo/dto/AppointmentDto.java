@@ -6,7 +6,7 @@ import lombok.Data;
 
 import java.sql.Date;
 @Data
-public class AppontmentDto{
+public class AppointmentDto{
 
     private Long appointment_id;
     private Date date;
