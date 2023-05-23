@@ -1,5 +1,8 @@
 # hospital-management-system
+<br>
+<br>
 
+# UML
 
 ![image](https://github.com/Ahmad-Alqattu/hospital-management-system/assets/19889053/496256c2-5177-418d-8a41-2c3b847e6ee7)
 
@@ -7,6 +10,7 @@
 <br>
 <br>
 <br>
+
 # Doctors
 
 | Method | URL                           | HTTP Status | Description                  | Sample Request                                                         | Sample Response                                                                                                                   |
