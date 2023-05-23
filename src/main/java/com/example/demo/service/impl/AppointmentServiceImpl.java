@@ -2,6 +2,7 @@ package com.example.demo.service.impl;
 
 import com.example.demo.dto.AppointmentDto;
 import com.example.demo.entity.Appointment;
+import com.example.demo.entity.Doctor;
 import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.repository.AppointmentRepository;
 import com.example.demo.service.AppointmentService;
@@ -50,9 +51,10 @@ public class AppointmentServiceImpl implements AppointmentService {
         // get Appointment by id from the database
         Appointment Appointment = AppointmentRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Appointment", "id", id));
-        Appointment a =mapToEntity(AppointmentDto);
+        Appointment saveAppointment = mapToEntity(AppointmentDto);
+        saveAppointment.setAppointment_id(Appointment.getAppointment_id()); // Ensure the ID is preserved
 
-        Appointment updatedAppointment = AppointmentRepository.save(a);
+        Appointment updatedAppointment = AppointmentRepository.save(saveAppointment);
         return mapToDTO(updatedAppointment);
     }
 
