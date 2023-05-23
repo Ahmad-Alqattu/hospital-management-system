@@ -1,8 +1,8 @@
 # hospital-management-system
 
 
+![image](https://github.com/Ahmad-Alqattu/hospital-management-system/assets/19889053/496256c2-5177-418d-8a41-2c3b847e6ee7)
 
-![image](https://github.com/Ahmad-Alqattu/hospital-management-system/assets/19889053/f5442166-3cde-4466-b690-67549075c1eb)
 <br>
 <br>
 <br>
